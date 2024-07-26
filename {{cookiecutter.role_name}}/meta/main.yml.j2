@@ -4,9 +4,12 @@ galaxy_info:
   license: MIT
   min_ansible_version: 2.9
   platforms:
-    - name: Ubuntu
+    {% for platform in cookiecutter.supported_platforms %}
+    - name: {{ platform.name }}
       versions:
-        - bionic
-        - focal
+        {% for version in platform.versions %}
+        - {{ version }}
+        {% endfor %}
+    {% endfor %}
   galaxy_tags: {{ cookiecutter.galaxy_tags }}
 dependencies: []

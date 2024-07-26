@@ -4,5 +4,9 @@
     "role_description": "blabla",
     "galaxy_tags": ["docker", "ubuntu"],
     "molecule_driver": ["vagrant", "docker", "podman"],
-    "molecule_verifier": ["ansible", "testinfra"]
+    "molecule_verifier": ["ansible", "testinfra"],
+    "supported_platforms": [
+        {"name": "Ubuntu", "versions": ["bionic", "focal"]}
+    ]
+
 }
