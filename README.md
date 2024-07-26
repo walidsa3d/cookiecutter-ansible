@@ -35,7 +35,7 @@ pip install git+https://github.com/cookiecutter/cookiecutter.git
 ```
 ## Usage
 ```
-cookiecutter gh:yourusername/your-repo-name
+cookiecutter gh:walidsa3d/cookicutter-ansible
 ```
 
 ## Variables
