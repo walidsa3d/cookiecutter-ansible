@@ -46,6 +46,7 @@ Here is an example of how to use this role in a playbook:
   roles:
     - role: {{ cookiecutter.role_name }}
       docker_data_dir: /mnt/docker_data
+```
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
