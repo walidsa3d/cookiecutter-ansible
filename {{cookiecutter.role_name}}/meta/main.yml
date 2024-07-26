@@ -1,0 +1,12 @@
+alaxy_info:
+  author: "{{ cookiecutter.author_name }}"
+  description: "{{ cookiecutter.role_description }}"
+  license: MIT
+  min_ansible_version: 2.9
+  platforms:
+    - name: Ubuntu
+      versions:
+        - bionic
+        - focal
+  galaxy_tags: {{ cookiecutter.galaxy_tags }}
+dependencies: []
