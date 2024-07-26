@@ -1,7 +1,7 @@
 {
     "role_name": "my_ansible_role",
     "author_name": "Your Name",
-    "role_description": "",
+    "role_description": "blabla",
     "galaxy_tags": ["docker", "ubuntu"],
     "molecule_driver": ["vagrant", "docker", "podman"],
     "molecule_verifier": ["ansible", "testinfra"]
