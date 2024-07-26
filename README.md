@@ -1,4 +1,4 @@
-# Cookiecutter Template for Ansible Roles with Molecule
+# Cookiecutter-Ansible
 
 This Cookiecutter template helps you create an Ansible role with Molecule testing. It supports various drivers (Vagrant, Docker, Podman) and verifiers (Ansible, Testinfra).
 
