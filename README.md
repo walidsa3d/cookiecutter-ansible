@@ -1,6 +1,6 @@
 # Cookiecutter-Ansible
 
-This Cookiecutter template helps you create an Ansible role with Molecule testing. It supports various drivers (Vagrant, Docker, Podman) and verifiers (Ansible, Testinfra).
+This Cookiecutter template helps you create an Ansible role with Molecule tests.
 
 ## Table of Contents
 
@@ -9,16 +9,14 @@ This Cookiecutter template helps you create an Ansible role with Molecule testin
 - [Installation](#installation)
 - [Usage](#usage)
 - [Variables](#variables)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
 
-- Create a new Ansible role with a customizable name, description, author, and tags.
-- Support for multiple Molecule drivers: Vagrant, Docker, Podman.
-- Support for multiple Molecule verifiers: Ansible, Testinfra.
-- Generate `meta/main.yml` with supported platforms.
-- Generate `README.md` with role details and usage instructions.
+- Creates a new Ansible role with a custom name, description, author, and galaxy tags.
+- Supports multiple Molecule drivers: Vagrant, Docker, Podman.
+- Supports multiple Molecule verifiers: Ansible, Testinfra.
+- Generates `README.md` with role details and usage instructions.
 
 ## Requirements
 
@@ -50,3 +48,6 @@ The following variables can be customized in cookiecutter.json:
 `molecule_driver` | Molecule driver (vagrant, docker, podman)
 `molecule_verifier` |	Molecule verifier (ansible, testinfra)
 `supported_platforms` | List of supported platforms (name and versions)
+
+## License
+MIT
