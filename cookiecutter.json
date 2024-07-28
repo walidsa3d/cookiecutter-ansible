@@ -5,8 +5,6 @@
     "galaxy_tags": ["docker", "ubuntu"],
     "molecule_driver": ["vagrant", "docker", "podman"],
     "molecule_verifier": ["ansible", "testinfra"],
-    "supported_platforms": [
-        {"name": "Ubuntu", "versions": ["bionic", "focal"]}
-    ]
+    "supported_platforms": ["Ubuntu"]
 
 }

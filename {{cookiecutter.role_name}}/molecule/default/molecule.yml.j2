@@ -3,7 +3,7 @@ dependency:
   name: galaxy
 
 driver:
-  name: "{{ cookiecutter.molecule_driver }}"
+  name: {{ cookiecutter.molecule_driver }}
 
 platforms:
   {% if cookiecutter.molecule_driver == 'vagrant' %}
@@ -28,4 +28,4 @@ provisioner:
     converge: converge.yml
 
 verifier:
-  name: "{{ cookiecutter.molecule_verifier }}"
+  name: {{ cookiecutter.molecule_verifier }}
