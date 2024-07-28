@@ -5,11 +5,9 @@ galaxy_info:
   min_ansible_version: 2.9
   platforms:
     {% for platform in cookiecutter.supported_platforms %}
-    - name: {{ platform.name }}
+    - name: {{ platform}}
       versions:
-        {% for version in platform.versions %}
-        - {{ version }}
-        {% endfor %}
+        - bla
     {% endfor %}
   galaxy_tags: {{ cookiecutter.galaxy_tags }}
 dependencies: []
