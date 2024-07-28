@@ -4,10 +4,8 @@ galaxy_info:
   license: MIT
   min_ansible_version: 2.9
   platforms:
-    {% for platform in cookiecutter.supported_platforms %}
     - name: {{ platform }}
       versions:
         - bla
-    {% endfor %}
   galaxy_tags: {{ cookiecutter.galaxy_tags }}
 dependencies: []
