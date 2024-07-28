@@ -16,7 +16,7 @@
 
 - Ansible >= 2.9
 - Supported platforms:
-  - {{ platform }}
+  - {{ cookiecutter.platform }}
 
 
 ## Role Variables
