@@ -1,6 +1,7 @@
 {
     "role_name": "my_ansible_role",
-    "author_name": "Your Name",
+    "author_name": "walidsa3d",
+    "github_username": "walidsa3d",
     "role_description": "blabla",
     "molecule_driver": ["vagrant", "docker", "podman"],
     "molecule_verifier": ["ansible", "testinfra"],

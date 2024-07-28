@@ -12,6 +12,12 @@
 - [Contributing](#contributing)
 - [License](#license)
 
+## Install
+```
+ansible-galaxy role install {{cookiecutter.github_username}}.{{cookiecutter.role_name}}
+
+```
+
 ## Requirements
 
 - Ansible >= 2.9

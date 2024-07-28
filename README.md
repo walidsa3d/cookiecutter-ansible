@@ -47,7 +47,7 @@ The following variables can be customized in cookiecutter.json:
 `galaxy_tags`	| Tags for Ansible Galaxy
 `molecule_driver` | Molecule driver (vagrant, docker, podman)
 `molecule_verifier` |	Molecule verifier (ansible, testinfra)
-`supported_platforms` | List of supported platforms (name and versions)
+`platforms` | List of supported platforms
 
 ## License
 MIT
