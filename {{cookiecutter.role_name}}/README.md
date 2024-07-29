@@ -30,7 +30,6 @@ The variables used in this role are defined in `defaults/main.yml` and can be cu
 
 | Variable           | Default Value           | Description                          |
 |--------------------|-------------------------|--------------------------------------|
-| `docker_data_dir`  | `/mnt/docker_data`      | Directory for Docker data            |
 | `molecule_driver`  | `vagrant`               | Molecule driver (vagrant, docker, podman) |
 | `molecule_verifier`| `ansible`               | Molecule verifier (ansible, testinfra) |
 
@@ -44,9 +43,9 @@ Here is an example of how to use this role in a playbook:
 
 ```yaml
 ---
-- name: Install and configure Docker
+- name: Use your role
   hosts: all
-  become: yes
+  become: true
   roles:
     - role: {{ cookiecutter.role_name }}
 ```
