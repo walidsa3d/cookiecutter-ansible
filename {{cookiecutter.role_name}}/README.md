@@ -8,7 +8,6 @@
 - [Role Variables](#role-variables)
 - [Dependencies](#dependencies)
 - [Example Playbook](#example-playbook)
-- [Molecule Testing](#molecule-testing)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -50,7 +49,6 @@ Here is an example of how to use this role in a playbook:
   become: yes
   roles:
     - role: {{ cookiecutter.role_name }}
-      docker_data_dir: /mnt/docker_data
 ```
 
 ## License
