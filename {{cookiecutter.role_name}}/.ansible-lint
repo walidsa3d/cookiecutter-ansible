@@ -1,3 +1,4 @@
+---
 warn_list:
   - experimental  # Shows from experimental rules not enabled by default
 exclude_paths:
