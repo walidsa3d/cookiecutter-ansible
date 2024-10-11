@@ -4,12 +4,14 @@ This Cookiecutter template helps you create an Ansible role with Molecule tests.
 
 ## Table of Contents
 
-- [Features](#features)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Variables](#variables)
-- [License](#license)
+- [Cookiecutter-Ansible](#cookiecutter-ansible)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Requirements](#requirements)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Variables](#variables)
+  - [License](#license)
 
 ## Features
 
@@ -43,11 +45,11 @@ The following variables can be customized in cookiecutter.json:
 |:----------|:----------|	
 `role_name` |	Name of the Ansible role
 `author_name`	| Author of the role
+`github_username`	| Github Username of the Author
 `role_description` |	Description of the role
-`galaxy_tags`	| Tags for Ansible Galaxy
 `molecule_driver` | Molecule driver (vagrant, docker, podman)
 `molecule_verifier` |	Molecule verifier (ansible, testinfra)
-`platforms` | List of supported platforms
+`platform` | List of supported platforms
 
 ## License
 MIT
